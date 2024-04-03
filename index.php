@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Mačky</title>
-    <link rel="icon" type="images/x-icon" href="img/306213.png" />
-  </head>
-<!--style iba pre tento index-->
-  <style>  
+<?php include "include/header.php" ?>
+    <style>  
     footer{
       margin-top: 10px;
       margin-bottom: 100px;
@@ -22,51 +11,6 @@
     margin-bottom: -50px;
     }
   </style>
-
-  <body>
-<!--navbar-->
-    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;"> 
-      <div class="container-fluid">
-        <a class="navbar-brand" >
-        <img src="img/306213.png" alt="Logo" width=auto height="50" class="d-inline-block align-text-center">
-        Mačky
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Domov</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#carouselExampleIndicators">Obsah</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index2.html">Informácie</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index3.html">História</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Plemená mačiek
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="index4.html">Siamská mačka</a></li>
-                <li><a class="dropdown-item" href="index5.html">Britská mačka</a></li>
-                <li><a class="dropdown-item" href="index6.html">Perzská mačka</a></li>
-                <li><a class="dropdown-item" href="index7.html">Ragdoll</a></li>
-                <li><a class="dropdown-item" href="index8.html">Sphynx</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index9.html">Formulár</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 <!--ndpis-->
     <main>
       <div class="cmb row pt-5">
