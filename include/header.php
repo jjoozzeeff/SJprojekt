@@ -1,4 +1,6 @@
-<?php include "backend/db_conn.php"?>
+<?php include "backend/db_conn.php";
+session_start();
+?>
 <!doctype html>
 <html lang="en">
   <head>
